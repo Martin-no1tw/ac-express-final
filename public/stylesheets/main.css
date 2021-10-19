@@ -1,0 +1,55 @@
+html, body {
+  font-family: 'Noto Sans Display', 'Noto Sans TC', sans-serif;
+}
+
+nav {
+  margin-top: 25px;
+  position: relative;
+}
+
+.nav-btn {
+  display: inline-block;
+  width: 90px;
+  height: 30px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 550;
+  line-height: 30px;
+  color: #333;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+.btn-activate {
+  color: #ddd;
+  background: #333;
+}
+
+#btn-home {
+  margin-left: 10px;
+}
+
+#btn-about, #btn-portfolio, #btn-contact {
+  position: absolute;
+}
+
+#btn-about {
+  right: 220px;
+}
+
+#btn-portfolio {
+  right: 120px;
+}
+
+#btn-contact {
+  right: 20px;
+}
+
+.container {
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+.title {
+  font-weight: 400;
+}
